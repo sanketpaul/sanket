@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+}
+.main{
+    width: 90%;
+    margin: 3px 10%;
+}
+.filter{
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 600px;
+
+    /* padding: 19px; */
+    /* margin-left: 10%; */
+    display: inlineblock;
+    float: left;
+
+    
+}
+.cuisine>li{
+    list-style: circle;
+}
+.filter>h1{
+    /* text-align: center; */
+}
+.cost_filter>h3{
+    text-align: center;
+}
+.cost_filter>li{
+list-style: circle;
+}
+.center{
+    text-align: center;
+}
+.container{
+    /* float: right; */
+    /* float: left; */
+    margin: 30px 13%;
+    height: 280px ;
+    width: 50%;
+    border: 1px solid rgb(148, 137, 137);
+    border-radius: 5px;
+    background-color: rgb(226, 210, 213);
+    float:left
+    /* margin-left:27% */
+    /* position:absolute; */
+    
+    
+    
+}
+.container2{
+    border: 1px solid rgb(143, 135, 135);
+    height: 270px ;
+    width: 45%;
+    margin-left: 30%;
+    margin-top: 340px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(226, 210, 213);
+}
+.image{
+    /* border: 2px solid black; */
+    float: left;
+    /* display: inline; */
+    margin: 29px 4%;
+}
+.image>img{
+    border: 2px solid black;
+    border-radius: 23px;
+}
+.details{
+    /* border: 2px solid green; */
+    float: left;
+    height: 250px;
+    margin: 10px 2%;
+    width: 40%;
+}
+.btn{
+    margin: 3px 4%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+}
